@@ -7,6 +7,7 @@
 *.png binary
 *.jpg binary
 *.thmx binary
+*.exe binary 
 
 # Standard to msysgit
 *.doc	 diff=astextplain
@@ -26,3 +27,4 @@
 *.fasta  diff=astextplain
 *.jar    diff=astextplain
 *.sh     diff=astextplain 
+
