@@ -13,7 +13,7 @@ _ _ Software _ _ _ _ _ _ _ _    On window_ _ _ _ _ _ _ _ On Linux(x86_64)_ _ _ _
   Java Virtual Machine	          jdk 1.7	           jdk 1.7                           jdk 1.7
   MATLAB Compiler Runtime	  mcr 8.4	           mcr 8.4             	             mcr 8.4
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
- All software can be downloaded from our websites (http://bioinfo.zstu.edu.cn/MTGI). MTGIpick file contains its corresponding JDK and MCR on different platforms.
+
 
 3. Download
 
@@ -40,7 +40,7 @@ There are two ways to download the MTGIpick:
        - run_MTGI_mac.sh                            # Run MTGIpick software
        - Example.fasta                              # A sequence in FASTA format
        - README.txt                                 # Documentation.
-   2) If you download the MTGIpick package without JDK 1.7 and MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI), download the JDK 1.7 and MCR 8.4 for your platform from the following Web:
+   2) If you download the MTGIpick package without JDK 1.7 or MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI), download the JDK 1.7 and MCR 8.4 for your platform from the following Web:
    JDK: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u25-oth-JPR
    MCR: http://www.mathworks.com/products/compiler/mcr/?refresh=true
    Make sure that the JDK 1.7 and MCR 8.4 are saved into the folder of the MTGIpick.
@@ -52,10 +52,11 @@ There are two ways to download the MTGIpick:
    2) Linux (Tested on Centos7)
    Before installing MTGIpick, make sure that the JDK 1.7 (jdk-7u79-linux-x64.tar.gz) and MCR 8.4 for Linux are saved into the folder of MTGIpick software. Please follow the following steps for installing and running MTGIpick:
    Step 1
-   To install jdk 1.7 and mcr 8.4, it requires a simple command line as follow:
+   To install jdk 1.7 (jdk-7u79-linux-x64.tar.gz) and mcr 8.4, it requires a simple command line as follow:
       > bash install_jdk-mcr_linux.sh
    Step 2
-   To run the MTGIpick software, just type a simple command line as follow:
+   To run the MTGIpick software, just type a simple command line as follow (Once the first step has run, execute the second step to run MTGIpick)
+:
       >bash run_MTGI_linux.sh
    3) Mac (Tested on OS X 10.10 Yosemite)
    Before installing MTGIpick, make sure that the JDK 1.7 (jdk-7u25.dmg) and MCR 8.4 for Mac are saved into the folder of MTGIpick software. Please follow the following steps for running MTGIpick:
@@ -65,7 +66,7 @@ There are two ways to download the MTGIpick:
    To install mcr 8.4, it requires a simple command line as follow:
       > bash install_mcr_mac.sh
    Step 3
-   To run MTGIpick software, just type a simple command line as follow:
+   To run MTGIpick software, just type a simple command line as follow (Once the first two steps have run, execute the third step to run MTGIpick):
       > bash run_MTGI_mac.sh
  
 5. Inputs
