@@ -4,6 +4,10 @@
 # Custom for Visual Studio
 *.cs     diff=csharp
 
+*.png binary
+*.jpg binary
+*.thmx binary
+
 # Standard to msysgit
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
@@ -16,3 +20,9 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 *.zip	 diff=astextplain
+*.xml	 diff=astextplain
+*.htm	 diff=astextplain
+*.zip	 diff=astextplain
+*.fasta  diff=astextplain
+*.jar    diff=astextplain
+*.sh     diff=astextplain 
