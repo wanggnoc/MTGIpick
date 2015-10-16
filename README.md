@@ -118,44 +118,44 @@ Note:</br>
 #####3.3. Methods
 ######3.3.1 IST-LFS method
 1) Framework</br>
-IST-LFS is a proposed small-scale t-test with large-scale feature selection that was used to quantify the compositional differences of a region from the host in the MTGIpick. It is efficient at detecting horizontal gene transfers or genomic islands with small sizes. The steps are described below:</br>
-a) Split a genome into n non-overlapping windows of size 1kb.</br>
-b) Calculate the frequencies of the tetranucleotides in each window as genomic signatures.</br>
-c) Extract the signatures of the host with the help of the confidence intervals on the windows’ variances.</br>
-d) Calculate the kurtosis of each tetranucleotide across n windows and select the windows with a larger kurtosis as informative signatures.</br>
-e) Measure the divergence of the ith window from the host using the two-sample t-test.</br>
-f) Select windows whose scores are large enough to be considered to be statistically significant. </br>
-g) Delete the selected windows and update all of windows of the genome; then, repeat steps d-f until there is no window to be found.</br>
-h) Refine the boundaries of the predicted genomic islands using the CG-MJSD method.</br>
+　　IST-LFS is a proposed small-scale t-test with large-scale feature selection that was used to quantify the compositional differences of a region from the host in the MTGIpick. It is efficient at detecting horizontal gene transfers or genomic islands with small sizes. The steps are described below:</br>
+　　a) Split a genome into n non-overlapping windows of size 1kb.</br>
+　　b) Calculate the frequencies of the tetranucleotides in each window as genomic signatures.</br>
+　　c) Extract the signatures of the host with the help of the confidence intervals on the windows’ variances.</br>
+　　d) Calculate the kurtosis of each tetranucleotide across n windows and select the windows with a larger kurtosis as informative signatures.</br>
+　　e) Measure the divergence of the ith window from the host using the two-sample t-test.</br>
+　　f) Select windows whose scores are large enough to be considered to be statistically significant. </br>
+　　g) Delete the selected windows and update all of windows of the genome; then, repeat steps d-f until there is no window to be found.</br>
+　　h) Refine the boundaries of the predicted genomic islands using the CG-MJSD method.</br>
 ***2) Parameters of IST-LFS Software***</br>
-**Word size**: the length of k-mer.</br>
-**Windowed transform**: the total number of the windows used in genomic transformation.</br>
-**Iteration time**: the periods of time that are repeated to select windows whose scores are large enough to be considered statistically significant.</br>
-**Core feature size**: the size of selected features by the proposed kurtosis.</br>
-**Eye window size**: the size of eye windows used in the proposed divergence measure based on two-sample t-test.</br>
-**Time standard error**: the standard deviation of the mean of the window scores to select windows associated with putative GIs.</br>
-**Upstream/downstream of ‘raw’ genomic islands**: the length of sequences around ‘raw’ genomic islands to refine the boundaries of predicted genomic islands.</br>
+　　**Word size**: the length of k-mer.</br>
+　　**Windowed transform**: the total number of the windows used in genomic transformation.</br>
+　　**Iteration time**: the periods of time that are repeated to select windows whose scores are large enough to be considered statistically significant.</br>
+　　**Core feature size**: the size of selected features by the proposed kurtosis.</br>
+　　**Eye window size**: the size of eye windows used in the proposed divergence measure based on two-sample t-test.</br>
+　　**Time standard error**: the standard deviation of the mean of the window scores to select windows associated with putative GIs.</br>
+　　**Upstream/downstream of ‘raw’ genomic islands**: the length of sequences around ‘raw’ genomic islands to refine the boundaries of predicted genomic islands.</br>
 
 ######3.3.2 MTGIpick method
 ***1) Framework***</br>
-MTGIpick is a novel method for the robust identification of GIs using the multiscale statistical testing. The steps are described below:</br>
-a) Split a genome into n non-overlapping windows of size 1kb.</br>
-b) Calculate the frequencies of the tetranucleotides in each window as genomic signatures.</br>
-c) At a smaller scale, we propose an iteration of small-scale t-tests with large-scale feature selection (IST-LFS) to quantify the compositional differences of a region from the host. </br>
-d) At a large scale, we investigate the variability of higher moments of each tetranucleotide and design an iteration of large-scale statistical testing using dynamic signals from small-scale feature selection (ILST-DSFS), to identify large, multi-window segments. </br>
-e) For each multi-window region detected by the ILST-DSFS, we split it into several distinct segments according the GC-content bias, from which we detect genomic islands with respect to their IST-LFS scores. </br>
+　　MTGIpick is a novel method for the robust identification of GIs using the multiscale statistical testing. The steps are described below:</br>
+　　a) Split a genome into n non-overlapping windows of size 1kb.</br>
+　　b) Calculate the frequencies of the tetranucleotides in each window as genomic signatures.</br>
+　　c) At a smaller scale, we propose an iteration of small-scale t-tests with large-scale feature selection (IST-LFS) to quantify the compositional differences of a region from the host. </br>
+　　d) At a large scale, we investigate the variability of higher moments of each tetranucleotide and design an iteration of large-scale statistical testing using dynamic signals from small-scale feature selection (ILST-DSFS), to identify large, multi-window segments. </br>
+　　e) For each multi-window region detected by the ILST-DSFS, we split it into several distinct segments according the GC-content bias, from which we detect genomic islands with respect to their IST-LFS scores. </br>
 f) Refine the boundaries of the predicted genomic islands using the CG-MJSD method.</br>
 ***2) Parameters of MTGIpick Software***</br>
-**Word size**: the length of k-mer.</br>
-**Windowed transform**: the total number of the windows used in genomic transformation.</br>
-**Iteration time**: the periods of time that are repeated to select windows whose scores are large enough to be considered statistically significant.</br>
-**Core feature size**: the size of selected features by the proposed kurtosis.</br>
-**Eye window size**: the size of eye windows used in the proposed divergence measure based on two-sample t-test.</br>
-**Time standard error**: the standard deviation of the mean of the window scores to select windows associated with putative GIs.</br>
-**Neighbourhood size**: the total number of the windows surrounding the ith window used in the calculation of the higher moments.</br>
-**Long window size**: chooses the number of the subsequent continued windows of the ith window.</br>
-**Dynamic feature size**: the size of selected features by the proposed kurtosis within the ith long sliding window.</br>
-**Upstream/downstream of ‘raw’ genomic islands**: the length of sequences around ‘raw’ genomic islands to refine the boundaries of predicted genomic islands. </br>
+　　**Word size**: the length of k-mer.</br>
+　　**Windowed transform**: the total number of the windows used in genomic transformation.</br>
+　　**Iteration time**: the periods of time that are repeated to select windows whose scores are large enough to be considered statistically significant.</br>
+　　**Core feature size**: the size of selected features by the proposed kurtosis.</br>
+　　**Eye window size**: the size of eye windows used in the proposed divergence measure based on two-sample t-test.</br>
+　　**Time standard error**: the standard deviation of the mean of the window scores to select windows associated with putative GIs.</br>
+　　**Neighbourhood size**: the total number of the windows surrounding the ith window used in the calculation of the higher moments.</br>
+　　**Long window size**: chooses the number of the subsequent continued windows of the ith window.</br>
+　　**Dynamic feature size**: the size of selected features by the proposed kurtosis within the ith long sliding window.</br>
+　　**Upstream/downstream of ‘raw’ genomic islands**: the length of sequences around ‘raw’ genomic islands to refine the boundaries of predicted genomic islands. </br>
 #####3.4. Outputs
 
 The output of MTGIpick consists of genomic signatures, score of each region and predicted genomic islands. They are stored in the same directory where the input file is stored. The genomic signatures are displayed like this:</br>
