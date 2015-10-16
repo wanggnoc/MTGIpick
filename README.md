@@ -43,12 +43,12 @@
 
 >>B) Linux (MTGIpick.zip)
 >>>- jdk-7u79-linux-x64.tar.gz　　　　# JDK 1.7 for Linux
->>>- MCRInstaller.zip　　　　　# MCR 8.4 for Linux
->>>- MTGI_linux.jar　　　　　　# Main program
+>>>- MCRInstaller.zip　　　　　　　　# MCR 8.4 for Linux
+>>>- MTGI_linux.jar　　　　　　　　　# Main program
 >>>- install_jdk-mcr_linux.sh　　　　# Install jdk 1.7 and mcr 8.4
->>>- run_MTGI_linux.sh　　　　　# Run MTGIpick software
->>>- Example.fasta　　　　　　# A sequence in FASTA format
->>>- README.txt　　　　　　　# Documentation.
+>>>- run_MTGI_linux.sh　　　　　　 　# Run MTGIpick software
+>>>- Example.fasta　　　　　　　　　 # A sequence in FASTA format
+>>>- README.txt　　　　　　　　　　　# Documentation.
 
 >>C) Mac (MTGIpick.zip)
 >>>- jdk-7u25.dmg　　　　# JDK 1.7 for Mac
