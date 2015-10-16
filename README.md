@@ -51,13 +51,13 @@
 >>>- README.txt　　　　　　　　　　# Documentation.
 
 >>C) Mac (MTGIpick.zip)
->>>- jdk-7u25.dmg　　　　# JDK 1.7 for Mac
->>>- MCRInstaller.zip　　　　# MCR 8.4 for Mac
->>>- MTGI_mac.jar　　　　# Main program
+>>>- jdk-7u25.dmg　　　　　　# JDK 1.7 for Mac
+>>>- MCRInstaller.zip　　　　　# MCR 8.4 for Mac
+>>>- MTGI_mac.jar　　　　　　# Main program
 >>>- install_mcr_mac.sh　　　　# Install mcr 8.4
 >>>- run_MTGI_mac.sh　　　　# Run MTGIpick software
->>>- Example.fasta　　　　# A sequence in FASTA format
->>>- README.txt　　　　# Documentation.
+>>>- Example.fasta　　　　　　# A sequence in FASTA format
+>>>- README.txt　　　　　　　# Documentation.
 
 >1)If you download the MTGIpick package without JDK 1.7 or MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI), download the JDK 1.7 and MCR 8.4 for your platform from the following Web:
 >>JDK: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u25-oth-JPR
