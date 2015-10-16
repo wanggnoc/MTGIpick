@@ -40,7 +40,7 @@
 >>>- MTGI_setup.exe　 　 　　# main program
 >>>- Example.fasta　 　 　　　# A sequence in FASTA format
 >>>- README.txt　　　　  　　# Documentation
-　
+
 >>B) Linux (MTGIpick.zip)
 >>>- jdk-7u79-linux-x64.tar.gz　　　　# JDK 1.7 for Linux
 >>>- MCRInstaller.zip　　　　　# MCR 8.4 for Linux
