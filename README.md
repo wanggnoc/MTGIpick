@@ -59,8 +59,8 @@
 >>>- Example.fasta　　　　　　# A sequence in FASTA format
 >>>- README.txt　　　　　　　# Documentation.
 
->1)If you download the MTGIpick package without JDK 1.7 or MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI), download the JDK 1.7 and MCR 8.4 for your platform from the following Web:
->>JDK: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u25-oth-JPR
+>2)If you download the MTGIpick package without JDK 1.7 or MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI), download the JDK 1.7 and MCR 8.4 for your platform from the following Web:
+>>JDK: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u25-oth-JPR</br>
 >>MCR: http://www.mathworks.com/products/compiler/mcr/?refresh=true
 
 >**Make sure that the JDK 1.7 and MCR 8.4 are saved into the folder of the MTGIpick.**
