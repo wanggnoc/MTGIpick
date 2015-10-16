@@ -158,13 +158,13 @@ f) Refine the boundaries of the predicted genomic islands using the CG-MJSD meth
 　　**Upstream/downstream of ‘raw’ genomic islands**: the length of sequences around ‘raw’ genomic islands to refine the boundaries of predicted genomic islands. </br>
 #####3.4. Outputs
 
-The output of MTGIpick consists of genomic signatures, score of each region and predicted genomic islands. They are stored in the same directory where the input file is stored. The genomic signatures are displayed like this:</br>
+　　The output of MTGIpick consists of genomic signatures, score of each region and predicted genomic islands. They are stored in the same directory where the input file is stored. The genomic signatures are displayed like this:</br>
 ![1](https://github.com/wanggnoc/MTGIpick/raw/master/pic/1.png) </br>
 
-The score of each region is displayed like this:</br>
+　　The score of each region is displayed like this:</br>
 ![2](https://github.com/wanggnoc/MTGIpick/raw/master/pic/2.png) </br>
 
-And the predicted genomic islands are:<br>
+　　And the predicted genomic islands are:<br>
 ![3](https://github.com/wanggnoc/MTGIpick/raw/master/pic/3.png) </br>
 
 ###4. References
