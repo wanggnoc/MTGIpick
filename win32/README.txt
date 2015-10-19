@@ -7,7 +7,7 @@ MTGIpick implements a multiscale statistical algorithm to predict genomic island
 
 2. Requirements
 
-MTGIpick has been compiled and tested under Sun Java interpretera and Matlab. MTGIpick can be used in Windows-, Linux- and Mac-based platforms. Java Virtual Machine and MATLAB Compiler Runtime (MCR) are required for MTGIpick setup on your platform. However, we strongly advise the use of openjdk (JDK) instead of the Oracle version of java virtual machine when working in linux-based or Mac-based machines as the Oracle version may result in some exceptions during the analyses.
+MTGIpick has been compiled and tested under Sun Java interpreter and Matlab. MTGIpick can be used in Windows-, Linux- and Mac-based platforms. Java Virtual Machine and MATLAB Compiler Runtime (MCR) are required for MTGIpick setup on your platform. However, we strongly advise the use of openjdk (JDK) instead of the Oracle version of java virtual machine when working in linux-based or Mac-based machines as the Oracle version may result in some exceptions during the analyses.
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 _ _ Software _ _ _ _ _ _ _ _    On window_ _ _ _ _ _ _ _ On Linux(x86_64)_ _ _ _ _ _ __ _ _  On Mac_ _ __ 
   Java Virtual Machine	          jdk 1.7	           jdk 1.7                           jdk 1.7
@@ -33,7 +33,7 @@ There are two ways to download the MTGIpick:
        - Example.fasta                              # A sequence in FASTA format
        - README.txt                                 # Documentation.
    C) Mac (MTGIpick.zip)
-       - jdk-7u25.dmg                               # JDK 1.7 for Mac
+       - jdk-7u25-macosx-x64.dmg                    # JDK 1.7 for Mac
        - MCRInstaller.zip                           # MCR 8.4 for Mac
        - MTGI_mac.jar                               # Main program
        - install_mcr_mac.sh                         # Install mcr 8.4
@@ -59,9 +59,9 @@ There are two ways to download the MTGIpick:
 :
       >bash run_MTGI_linux.sh
    3) Mac (Tested on OS X 10.10 Yosemite)
-   Before installing MTGIpick, make sure that the JDK 1.7 (jdk-7u25.dmg) and MCR 8.4 for Mac are saved into the folder of MTGIpick software. Please follow the following steps for running MTGIpick:
+   Before installing MTGIpick, make sure that the JDK 1.7 (jdk-7u25-macosx-x64.dmg) and MCR 8.4 for Mac are saved into the folder of MTGIpick software. Please follow the following steps for running MTGIpick:
    Step 1
-   Install jdk (jdk-7u25.dmg) by simply clicking
+   Install jdk (jdk-7u25-macosx-x64.dmg) by simply clicking
    Step 2
    To install mcr 8.4, it requires a simple command line as follow:
       > bash install_mcr_mac.sh
