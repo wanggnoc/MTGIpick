@@ -26,41 +26,41 @@
 
 ###2. Obtain and install
 #####2.1. Requirements
-　　MTGIpick has been compiled and tested under Sun Java interpretera and Matlab. MTGIpick can be used in Windows-, Linux- and Mac-based platforms. Java Virtual Machine and MATLAB Compiler Runtime (MCR) are required for MTGIpick setup on your platform. However, we strongly advise the use of openjdk (JDK) instead of the Oracle version of java virtual machine when working in linux-based or Mac-based machines as the Oracle version may result in some exceptions during the analyses. </br>
-_ _ Software _ _ _ _ _ _ _ _ _ _ On window_ _ _ _ _ _ _ _ On Linux(x86_64)_ _ _ _ _ _ _ _ _  On Mac_ _ _ _ </br>
-  Java Virtual Machine_ _ _ _ _ _ _ _ _ _jdk 1.7_ _ _ _ _ _ _ _ _ _ _jdk 1.7_ _ _ _ _ _ _ _ _ _ _ _ _ _jdk 1.7_ _ _</br>
-  MATLAB Compiler Runtime_ _ _ _	_ _mcr 8.4_ _ _ _ _ _ _ _ _ _mcr 8.4_ _ _ _ _ _ _ _ _ _ _ _ _ _ _mcr 8.4_ _ _ _</br>
+　　MTGIpick has been compiled and tested under Sun Java interpreter and Matlab. MTGIpick can be used in Windows-, Linux- and Mac-based platforms. Java Virtual Machine and MATLAB Compiler Runtime (MCR) are required for MTGIpick setup on your platform. However, we strongly advise the use of openjdk (JDK) instead of the Oracle version of java virtual machine when working in linux-based or Mac-based machines as the Oracle version may result in some exceptions during the analyses. </br>
+  Software_ _ _ _ _ _ _ _ _ _ _ _ On window_ _ _ _ _ _ _ _ On Linux(x86_64)_ _ _ _ _ _ _ _ _  On Mac</br>
+  Java Virtual Machine_ _ _ _ _ _ _ _ _ _jdk 1.7_ _ _ _ _ _ _ _ _ _ _jdk 1.7_ _ _ _ _ _ _ _ _ _ _ _ _ _ _jdk 1.7_</br>
+  MATLAB Compiler Runtime_ _ _ _	_ _mcr 8.4_ _ _ _ _ _ _ _ _ _mcr 8.4_ _ _ _ _ _ _ _ _ _ _ _ _ _ _mcr 8.4_</br>
 
 #####2.2. Download
 >There are two ways to download the MTGIpick:</br>
 
 >1) You can download the MTGIpick package with JDK 1.7 and MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI)</br>
 >>A) Windows (MTGIpick.zip)
->>>- MCRInstaller.exe　　　　# MCR 8.4 for Windows
->>>- MTGI_setup.exe　　# main program
->>>- Example.fasta　　　# A sequence in FASTA format
->>>- README.txt　　　　# Documentation.
+>>>- MCRInstaller.exe　　　　　　 　# MCR 8.4 for Windows
+>>>- MTGI_setup.exe　 　 　　　　　# main program
+>>>- Example.fasta　 　 　　　　   　# A sequence in FASTA format
+>>>- README.txt　　　　  　　　   　# Documentation
 
 >>B) Linux (MTGIpick.zip)
->>>- jdk-7u79-linux-x64.tar.gz　　　　# JDK 1.7 for Linux
->>>- MCRInstaller.zip　　　　　# MCR 8.4 for Linux
->>>- MTGI_linux.jar　　　　　　# Main program
->>>- install_jdk-mcr_linux.sh　　　　# Install jdk 1.7 and mcr 8.4
->>>- run_MTGI_linux.sh　　　　　# Run MTGIpick software
->>>- Example.fasta　　　　　　# A sequence in FASTA format
->>>- README.txt　　　　　　　# Documentation.
+>>>- jdk-7u79-linux-x64.tar.gz　　　　　# JDK 1.7 for Linux
+>>>- MCRInstaller.zip　　　　　　　　# MCR 8.4 for Linux
+>>>- MTGI_linux.jar　　　　　　　　　# Main program
+>>>- install_jdk-mcr_linux.sh　　　　　# Install jdk 1.7 and mcr 8.4
+>>>- run_MTGI_linux.sh　　　　　　　# Run MTGIpick software
+>>>- Example.fasta　　　　　　　　 # A sequence in FASTA format
+>>>- README.txt　　　　　　　　　# Documentation.
 
 >>C) Mac (MTGIpick.zip)
->>>- jdk-7u25.dmg　　　　# JDK 1.7 for Mac
->>>- MCRInstaller.zip　　　　# MCR 8.4 for Mac
->>>- MTGI_mac.jar　　　　# Main program
->>>- install_mcr_mac.sh　　　　# Install mcr 8.4
->>>- run_MTGI_mac.sh　　　　# Run MTGIpick software
->>>- Example.fasta　　　　# A sequence in FASTA format
->>>- README.txt　　　　# Documentation.
+>>>- jdk-7u25.dmg　　　　　　　　　# JDK 1.7 for Mac
+>>>- MCRInstaller.zip　　　　　　　　# MCR 8.4 for Mac
+>>>- MTGI_mac.jar　　　　　　　　　# Main program
+>>>- install_mcr_mac.sh　　　　　　# Install mcr 8.4
+>>>- run_MTGI_mac.sh　　　　　　　# Run MTGIpick software
+>>>- Example.fasta　　　　　　　　# A sequence in FASTA format
+>>>- README.txt　　　　　　　　　# Documentation.
 
->1)If you download the MTGIpick package without JDK 1.7 or MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI), download the JDK 1.7 and MCR 8.4 for your platform from the following Web:
->>JDK: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u25-oth-JPR
+>2)If you download the MTGIpick package without JDK 1.7 or MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI), download the JDK 1.7 and MCR 8.4 for your platform from the following Web:
+>>JDK: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html#jdk-7u25-oth-JPR</br>
 >>MCR: http://www.mathworks.com/products/compiler/mcr/?refresh=true
 
 >**Make sure that the JDK 1.7 and MCR 8.4 are saved into the folder of the MTGIpick.**
@@ -75,16 +75,17 @@ _ _ Software _ _ _ _ _ _ _ _ _ _ On window_ _ _ _ _ _ _ _ On Linux(x86_64)_ _ _ 
 
 　　Before installing MTGIpick, make sure that the JDK 1.7 (jdk-7u79-linux-x64.tar.gz) and MCR 8.4 for Linux are saved into the same folder of MTGIpick software. Please follow the following steps for installing and running MTGIpick:</br>
 　　Step 1</br>
-　　To install jdk 1.7 and mcr 8.4, it requires a simple command line as follow:</br>
+　　To install jdk 1.7(jdk-7u79-linux-x64.tar.gz) and mcr 8.4, it requires a simple command line as follow:</br>
 　　>bash install_jdk-mcr_linux.sh</br>
 　　Step 2</br>
 　　To run the MTGIpick software, just type a simple command line as follow (Once the first step has run, execute the second step to run MTGIpick):</br>
 　　>bash run_MTGI_linux.sh</br>
-　　
+　　</br>
 3) Mac (Tested on OS X 10.10 Yosemite)</br>
-　　Before installing MTGIpick, make sure that the JDK 1.7 (jdk-7u25.dmg) and MCR 8.4 for Mac are saved into the same folder of MTGIpick software. Please follow the following steps for running MTGIpick:</br>
+
+　　Before installing MTGIpick, make sure that the JDK 1.7 (jdk-7u25-macosx-x64.dmg) and MCR 8.4 for Mac are saved into the same folder of MTGIpick software. Please follow the following steps for running MTGIpick:</br>
 　　Step 1</br>
-　　Install jdk (jdk-7u25.dmg) by simply clicking</br>
+　　Install jdk (jdk-7u25-macosx-x64.dmg) by simply clicking</br>
 　　Step 2</br>
 　　To install mcr 8.4, it requires a simple command line as follow:</br>
 　　> bash install_mcr_mac.sh</br>
@@ -118,53 +119,53 @@ Note:</br>
 #####3.3. Methods
 ######3.3.1 IST-LFS method
 1) Framework</br>
-IST-LFS is a proposed small-scale t-test with large-scale feature selection that was used to quantify the compositional differences of a region from the host in the MTGIpick. It is efficient at detecting horizontal gene transfers or genomic islands with small sizes. The steps are described below:</br>
-a) Split a genome into n non-overlapping windows of size 1kb.</br>
-b) Calculate the frequencies of the tetranucleotides in each window as genomic signatures.</br>
-c) Extract the signatures of the host with the help of the confidence intervals on the windows’ variances.</br>
-d) Calculate the kurtosis of each tetranucleotide across n windows and select the windows with a larger kurtosis as informative signatures.</br>
-e) Measure the divergence of the ith window from the host using the two-sample t-test.</br>
-f) Select windows whose scores are large enough to be considered to be statistically significant. </br>
-g) Delete the selected windows and update all of windows of the genome; then, repeat steps d-f until there is no window to be found.</br>
-h) Refine the boundaries of the predicted genomic islands using the CG-MJSD method.</br>
+　　IST-LFS is a proposed small-scale t-test with large-scale feature selection that was used to quantify the compositional differences of a region from the host in the MTGIpick. It is efficient at detecting horizontal gene transfers or genomic islands with small sizes. The steps are described below:</br>
+　　a) Split a genome into n non-overlapping windows of size 1kb.</br>
+　　b) Calculate the frequencies of the tetranucleotides in each window as genomic signatures.</br>
+　　c) Extract the signatures of the host with the help of the confidence intervals on the windows’ variances.</br>
+　　d) Calculate the kurtosis of each tetranucleotide across n windows and select the windows with a larger kurtosis as informative signatures.</br>
+　　e) Measure the divergence of the ith window from the host using the two-sample t-test.</br>
+　　f) Select windows whose scores are large enough to be considered to be statistically significant. </br>
+　　g) Delete the selected windows and update all of windows of the genome; then, repeat steps d-f until there is no window to be found.</br>
+　　h) Refine the boundaries of the predicted genomic islands using the CG-MJSD method.</br>
 ***2) Parameters of IST-LFS Software***</br>
-**Word size**: the length of k-mer.</br>
-**Windowed transform**: the total number of the windows used in genomic transformation.</br>
-**Iteration time**: the periods of time that are repeated to select windows whose scores are large enough to be considered statistically significant.</br>
-**Core feature size**: the size of selected features by the proposed kurtosis.</br>
-**Eye window size**: the size of eye windows used in the proposed divergence measure based on two-sample t-test.</br>
-**Time standard error**: the standard deviation of the mean of the window scores to select windows associated with putative GIs.</br>
-**Upstream/downstream of ‘raw’ genomic islands**: the length of sequences around ‘raw’ genomic islands to refine the boundaries of predicted genomic islands.</br>
+　　**Word size**: the length of k-mer.</br>
+　　**Windowed transform**: the total number of the windows used in genomic transformation.</br>
+　　**Iteration time**: the periods of time that are repeated to select windows whose scores are large enough to be considered statistically significant.</br>
+　　**Core feature size**: the size of selected features by the proposed kurtosis.</br>
+　　**Eye window size**: the size of eye windows used in the proposed divergence measure based on two-sample t-test.</br>
+　　**Time standard error**: the standard deviation of the mean of the window scores to select windows associated with putative GIs.</br>
+　　**Upstream/downstream of ‘raw’ genomic islands**: the length of sequences around ‘raw’ genomic islands to refine the boundaries of predicted genomic islands.</br>
 
 ######3.3.2 MTGIpick method
 ***1) Framework***</br>
-MTGIpick is a novel method for the robust identification of GIs using the multiscale statistical testing. The steps are described below:</br>
-a) Split a genome into n non-overlapping windows of size 1kb.</br>
-b) Calculate the frequencies of the tetranucleotides in each window as genomic signatures.</br>
-c) At a smaller scale, we propose an iteration of small-scale t-tests with large-scale feature selection (IST-LFS) to quantify the compositional differences of a region from the host. </br>
-d) At a large scale, we investigate the variability of higher moments of each tetranucleotide and design an iteration of large-scale statistical testing using dynamic signals from small-scale feature selection (ILST-DSFS), to identify large, multi-window segments. </br>
-e) For each multi-window region detected by the ILST-DSFS, we split it into several distinct segments according the GC-content bias, from which we detect genomic islands with respect to their IST-LFS scores. </br>
+　　MTGIpick is a novel method for the robust identification of GIs using the multiscale statistical testing. The steps are described below:</br>
+　　a) Split a genome into n non-overlapping windows of size 1kb.</br>
+　　b) Calculate the frequencies of the tetranucleotides in each window as genomic signatures.</br>
+　　c) At a smaller scale, we propose an iteration of small-scale t-tests with large-scale feature selection (IST-LFS) to quantify the compositional differences of a region from the host. </br>
+　　d) At a large scale, we investigate the variability of higher moments of each tetranucleotide and design an iteration of large-scale statistical testing using dynamic signals from small-scale feature selection (ILST-DSFS), to identify large, multi-window segments. </br>
+　　e) For each multi-window region detected by the ILST-DSFS, we split it into several distinct segments according the GC-content bias, from which we detect genomic islands with respect to their IST-LFS scores. </br>
 f) Refine the boundaries of the predicted genomic islands using the CG-MJSD method.</br>
 ***2) Parameters of MTGIpick Software***</br>
-**Word size**: the length of k-mer.</br>
-**Windowed transform**: the total number of the windows used in genomic transformation.</br>
-**Iteration time**: the periods of time that are repeated to select windows whose scores are large enough to be considered statistically significant.</br>
-**Core feature size**: the size of selected features by the proposed kurtosis.</br>
-**Eye window size**: the size of eye windows used in the proposed divergence measure based on two-sample t-test.</br>
-**Time standard error**: the standard deviation of the mean of the window scores to select windows associated with putative GIs.</br>
-**Neighbourhood size**: the total number of the windows surrounding the ith window used in the calculation of the higher moments.</br>
-**Long window size**: chooses the number of the subsequent continued windows of the ith window.</br>
-**Dynamic feature size**: the size of selected features by the proposed kurtosis within the ith long sliding window.</br>
-**Upstream/downstream of ‘raw’ genomic islands**: the length of sequences around ‘raw’ genomic islands to refine the boundaries of predicted genomic islands. </br>
+　　**Word size**: the length of k-mer.</br>
+　　**Windowed transform**: the total number of the windows used in genomic transformation.</br>
+　　**Iteration time**: the periods of time that are repeated to select windows whose scores are large enough to be considered statistically significant.</br>
+　　**Core feature size**: the size of selected features by the proposed kurtosis.</br>
+　　**Eye window size**: the size of eye windows used in the proposed divergence measure based on two-sample t-test.</br>
+　　**Time standard error**: the standard deviation of the mean of the window scores to select windows associated with putative GIs.</br>
+　　**Neighbourhood size**: the total number of the windows surrounding the ith window used in the calculation of the higher moments.</br>
+　　**Long window size**: chooses the number of the subsequent continued windows of the ith window.</br>
+　　**Dynamic feature size**: the size of selected features by the proposed kurtosis within the ith long sliding window.</br>
+　　**Upstream/downstream of ‘raw’ genomic islands**: the length of sequences around ‘raw’ genomic islands to refine the boundaries of predicted genomic islands. </br>
 #####3.4. Outputs
 
-The output of MTGIpick consists of genomic signatures, score of each region and predicted genomic islands. They are stored in the same directory where the input file is stored. The genomic signatures are displayed like this:</br>
+　　The output of MTGIpick consists of genomic signatures, score of each region and predicted genomic islands. They are stored in the same directory where the input file is stored. The genomic signatures are displayed like this:</br>
 ![1](https://github.com/wanggnoc/MTGIpick/raw/master/pic/1.png) </br>
 
-The score of each region is displayed like this:</br>
+　　The score of each region is displayed like this:</br>
 ![2](https://github.com/wanggnoc/MTGIpick/raw/master/pic/2.png) </br>
 
-And the predicted genomic islands are:<br>
+　　And the predicted genomic islands are:<br>
 ![3](https://github.com/wanggnoc/MTGIpick/raw/master/pic/3.png) </br>
 
 ###4. References
