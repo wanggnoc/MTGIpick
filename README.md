@@ -55,7 +55,7 @@
 >>>- MCRInstaller.zip　　　　　　　　# MCR 8.4 for Mac
 >>>- MTGI_mac.jar　　　　　　　　　# Main program
 >>>- install_mcr_mac.sh　　　　　　# Install mcr 8.4
->>>- run_MTGI_mac.sh　　　　　　　　# Run MTGIpick software
+>>>- run_MTGI_mac.sh　　　　　　　# Run MTGIpick software
 >>>- Example.fasta　　　　　　　　# A sequence in FASTA format
 >>>- README.txt　　　　　　　　　# Documentation.
 
