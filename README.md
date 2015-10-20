@@ -81,7 +81,6 @@
 　　To run the MTGIpick software, just type a simple command line as follow (Once the first step has run, execute the second step to run MTGIpick):</br>
 　　>bash run_MTGI_linux.sh</br>
 　　</br>
-　　
 3) Mac (Tested on OS X 10.10 Yosemite)</br>
 
 　　Before installing MTGIpick, make sure that the JDK 1.7 (jdk-7u25-macosx-x64.dmg) and MCR 8.4 for Mac are saved into the same folder of MTGIpick software. Please follow the following steps for running MTGIpick:</br>
