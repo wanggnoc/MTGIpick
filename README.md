@@ -42,7 +42,7 @@
 >>>- README.txt　　　　  　　　   　# Documentation
 
 >>B) Linux (MTGIpick.zip)
->>>- jdk-7u79-linux-x64.tar.gz　　　　# JDK 1.7 for Linux
+>>>- jdk-7u79-linux-x64.tar.gz　　　 　# JDK 1.7 for Linux
 >>>- MCRInstaller.zip　　　　　　　　# MCR 8.4 for Linux
 >>>- MTGI_linux.jar　　　　　　　　　# Main program
 >>>- install_jdk-mcr_linux.sh　　　　　# Install jdk 1.7 and mcr 8.4
