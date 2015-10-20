@@ -36,7 +36,7 @@
 
 >1) You can download the MTGIpick package with JDK 1.7 and MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI)</br>
 >>A) Windows (MTGIpick.zip)
->>>- MCRInstaller.exe　　　　　　　# MCR 8.4 for Windows
+>>>- MCRInstaller.exe　　　　　　 　# MCR 8.4 for Windows
 >>>- MTGI_setup.exe　 　 　　　　　# main program
 >>>- Example.fasta　 　 　　　　　　# A sequence in FASTA format
 >>>- README.txt　　　　  　　　　　# Documentation
