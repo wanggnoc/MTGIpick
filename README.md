@@ -26,7 +26,7 @@
 
 ###2. Obtain and install
 #####2.1. Requirements
-　　MTGIpick has been compiled and tested under Sun Java interpretera and Matlab. MTGIpick can be used in Windows-, Linux- and Mac-based platforms. Java Virtual Machine and MATLAB Compiler Runtime (MCR) are required for MTGIpick setup on your platform. However, we strongly advise the use of openjdk (JDK) instead of the Oracle version of java virtual machine when working in linux-based or Mac-based machines as the Oracle version may result in some exceptions during the analyses. </br>
+　　MTGIpick has been compiled and tested under Sun Java interpreter and Matlab. MTGIpick can be used in Windows-, Linux- and Mac-based platforms. Java Virtual Machine and MATLAB Compiler Runtime (MCR) are required for MTGIpick setup on your platform. However, we strongly advise the use of openjdk (JDK) instead of the Oracle version of java virtual machine when working in linux-based or Mac-based machines as the Oracle version may result in some exceptions during the analyses. </br>
   Software_ _ _ _ _ _ _ _ _ _ _ _ On window_ _ _ _ _ _ _ _ On Linux(x86_64)_ _ _ _ _ _ _ _ _  On Mac</br>
   Java Virtual Machine_ _ _ _ _ _ _ _ _ _jdk 1.7_ _ _ _ _ _ _ _ _ _ _jdk 1.7_ _ _ _ _ _ _ _ _ _ _ _ _ _ _jdk 1.7_</br>
   MATLAB Compiler Runtime_ _ _ _	_ _mcr 8.4_ _ _ _ _ _ _ _ _ _mcr 8.4_ _ _ _ _ _ _ _ _ _ _ _ _ _ _mcr 8.4_</br>
@@ -36,10 +36,10 @@
 
 >1) You can download the MTGIpick package with JDK 1.7 and MCR 8.4 from our web (http://bioinfo.zstu.edu.cn/MTGI)</br>
 >>A) Windows (MTGIpick.zip)
->>>- MCRInstaller.exe　　　　# MCR 8.4 for Windows
->>>- MTGI_setup.exe　 　 　　# main program
->>>- Example.fasta　 　 　　　# A sequence in FASTA format
->>>- README.txt　　　　  　　# Documentation
+>>>- MCRInstaller.exe　　　　　　　# MCR 8.4 for Windows
+>>>- MTGI_setup.exe　 　 　　　　　# main program
+>>>- Example.fasta　 　 　　　　　　# A sequence in FASTA format
+>>>- README.txt　　　　  　　　　　# Documentation
 
 >>B) Linux (MTGIpick.zip)
 >>>- jdk-7u79-linux-x64.tar.gz　　　　# JDK 1.7 for Linux
